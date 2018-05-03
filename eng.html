@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./res/bootstrap.min.css">
         <script src="./res/jquery.min.js" type="text/javascript"></script>
         <script src="./res/bootstrap.min.js" type="text/javascript"></script>
+	<script src="./res/fontawesome-all.min.js" type="text/javascript"></script>
         <style>
             .btn-attend {
                 color: #fff;
@@ -79,13 +80,13 @@
                 var b = document.getElementById('exp');
                 b.style.display = 'none';
                 b = document.getElementById('ret');
-                b.style.display = 'block';
+                b.style.display = 'inline';
             }
             function rebtn() {
                 var b = document.getElementById('ret');
                 b.style.display = 'none';
                 b = document.getElementById('exp');
-                b.style.display = 'block';
+                b.style.display = 'inline';
             }
             function expandc() {
                 elements = document.getElementsByClassName("add-c");
@@ -220,10 +221,11 @@
             </nav>
         </div>
         <form>
-            <div class="container px-5 pt-5">
-                <button type="button" class="btn btn-secondary col-md-2 col-sm-4" id="ret" onclick="retract()">▲ Retract</button>
-                <button type="button" class="btn btn-secondary col-md-2 col-sm-4" id="exp" onclick="expand()">▼ Expand</button>
-                <div class="form-row pt-4">
+            <div class="container px-5 pt-3">
+		
+                <div class="form-row">
+		<a href="#" id="exp" onclick="expand()" class="badge badge-pill badge-secondary" style="margin-left: -25px; margin-right: 6px; height: 18px;">+</a>
+		<a href="#" id="ret" onclick="retract()" class="badge badge-pill badge-secondary" style="margin-left: -25px; margin-right: 6px; height: 18px;">-</a>
                     <div class="form-group col-md">
                         <label for="fnames">First Name(s)*</label>
                         <input type="text" class="form-control" id="fnames" placeholder="First Name(s)">
@@ -326,8 +328,8 @@
                         </div>
                     </div>
                 </div>
-		<hr class="add-i">
-		<div class="form-row">
+		<hr class="add-c add-i">
+		<div class="form-row add-c add-i">
 		<div class="col">
 		<label for="addr">Address</label>
                   <input type="text" class="form-control" id="addr" placeholder="Address" onchange="lookup()">
