@@ -1,0 +1,118 @@
+eng,spa
+sheep,Sheep,Oveja
+convandmem,"Converts  &amp; Returning Members","Conversos y Miembros Activándose"
+inv,Investigator,Investigador
+conv,Convert,Converso
+shlist,Sheep List,Lista de Ovejas
+memlist,Member List,Lista de Miembros
+nsheep,New Sheep,Nueva Oveja
+nmem,New Member,Nuevo Miembro
+dform,Download Form,Descargar Formulario
+legend,Legend,Leyenda
+users,Users,Usuarios
+changePass,Change Password,Cambiar Contraseña
+logout,Logout,Cerrar Sesión
+fnames,First Name(s),Nombre(s)
+lnames,Last Name(s),Apellido(s)
+bapDate,Baptism Date,Fecha Bautismal
+conf,Confirmation Date,Fecha de Confirmación
+area,Area,Área
+age,Age,Edad
+bday,Date of Birth,Fecha de Nacimiento
+bdayPh,dd/mm/yyyy,dd/mm/aaaa
+sex,Sex,Sexo
+male,Male,Masculino
+female,Female,Feminino
+phone,Phone Number,Número Telefónico
+zone,Zone,Zona
+district,District,Distrito
+stake,Stake,Estaca
+ward,Ward,Barrio
+push,Push,Aplazar
+addr,Address,Dirección
+fellows,Fellowshipper(s),Hermanadores
+nm,Name,Nombre
+add,Add,Agregar
+relation,Relationship,Estado Civil
+single,Single,Soltero
+married,Married,Casado
+cohabit,Cohabiting,Conviviente
+perm,Permission,Permiso
+y,Yes,Sí
+n,No,No
+lessons,Lessons,Lecciones
+l1t,Lesson 1: The Restoration,Lección 1: La Restauración
+close,Close,Cerrar
+'m,M,M
+l11,God is our loving Heavenly Father,Dios es nuestro amoroso Padre Celestial
+l15,The great apostasy,La Gran Apostasía
+l12,The gospel blesses families.El Evangelio bendice a las familias
+l16,The restoration: Joseph Smith,La Restauración: José Smith
+l13,Gospel dispensations,Dispensaciones del Evangelio
+l17,The Book of Mormon,El Libro de Mormón
+l14,The Savior's earthly ministry,El ministerio terrenal del Salvador
+l18,"Prayer, Holy Ghost","Oración, Espíritu Santo"
+recep,Reception,Recepción
+save,Save,Guardar
+l2t,Lesson 2: The Plan of Salvation
+l21,Pre-Earth life,La vida premortal
+l22,The Creation,La Creación
+l23,Agency and the Fall,El albedrío y la Caída
+l24,Our life on earth,Nuestra vida en la tierra
+l25,The Atonement,La Expiación
+l26,The spirit world,El mundo de los espíritus
+l27,"Resurrection, judgement, and immortality","Resurrección, juicio e inmortalidad"
+l28,Kingdoms of glory,Reinos de gloria
+l3t,Lesson 3: The Gospel of Jesus Christ,Lección 3: El Evangelio de Jesucristo
+l31,Cleansed from sin,Limpios del pecado
+l32,Faith in Jesus Christ,Fe en Jesucristo
+l33,Repentance,Arrepentimiento
+l34,"Baptism, our first covenant","Bautismo, nuestro primer convenio"
+l35,The gift of the Holy Ghost,El don del Espíritu Santo
+l36,Endure to the end,Perseverar hasta el fin
+l4t,Lesson 4: The Commandments
+l41,Obedience,Obediencia
+l42,Pray often,Orar con frecuencia
+l43,Study the scriptures,Estudiar las Escrituras
+l44,Keep the Sabbath day holy,Santifcar el Día de reposo
+l45,Baptism and Confirmation,Bautismo y confirmación
+l46,Follow the prophet,Seguir al profeta
+l47,Keep the Ten Commandments
+l48,Live the law of chastity,Cumplir con la ley de castidad
+l49,Obey the Word of Wisdom,Obedecer la Palabra de Sabiduría
+l410,Keep the law of tithing,Guardar la ley del diezmo
+l411,Observe the law of the fast,Observar la ley del ayuno
+l412,How to donate tithes and offerings,Cómo donar diezmos y ofrendas
+l413,Obey and honor the law,Obedecer y honrar la ley
+l5t,Lesson 5: Laws and Ordinances,Lección 5: Leyes y Ordenanzas
+l51,Priesthood and auxilliaries,Sacerdocio y organizaciones auxiliares
+l52,Missionary work,Obra misional
+l53,Eternal marriage,Matrimonio eterno
+l54,Temples and family history,Templos e historia familiar
+l55,Service,Servicio
+l56,Teaching and learning,Enseñanza y aprendizaje
+l57,Endure to the end,Perseverar hasta el fin
+attend,Church Attendance,Asistencia a la Iglesia
+interviewed,Interviewed,Entrevistado
+need,Need,Necesidad
+doctr,Doctrinal,Doctrinal
+tempr,Temporal,Temporal
+spiritu,Spiritual,Espiritual
+expound,Expound,Exponer
+plan,Plan,Plan
+addrneed,How will I address this need?,¿Cómo satisfaceré esta necesidad?
+baptzd,Baptized!,¡Bautizado!
+never,Never,Nunca
+sometimes,Sometimes,A Veces
+daily,Daily,A Diario
+weekly,Weekly,Semanalmente
+monthly,Monthly,Mensualmente
+script,Reading Scriptures,Leer las Escrituras
+pray,Praying,Orar
+fhe,Family Home Evening,Noche de Hogar
+recmin,Recieving Ministration,Recibir Ministración
+seminst,Attending  Seminary/Institute,Asistencia al Seminario/Instituto
+hasmin,Has Ministers,Tiene Ministros
+endw,Endowed,Es Investido(a)
+ismin,Is Minister,Es Ministro(a)
+marrd,Married,Está Casado(a)
