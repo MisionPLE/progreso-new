@@ -1,118 +1,144 @@
-eng,spa
-sheep,Sheep,Oveja
-convandmem,"Converts  &amp; Returning Members","Conversos y Miembros Activándose"
-inv,Investigator,Investigador
-conv,Convert,Converso
-shlist,Sheep List,Lista de Ovejas
-memlist,Member List,Lista de Miembros
-nsheep,New Sheep,Nueva Oveja
-nmem,New Member,Nuevo Miembro
-dform,Download Form,Descargar Formulario
-legend,Legend,Leyenda
-users,Users,Usuarios
-changePass,Change Password,Cambiar Contraseña
-logout,Logout,Cerrar Sesión
-fnames,First Name(s),Nombre(s)
-lnames,Last Name(s),Apellido(s)
-bapDate,Baptism Date,Fecha Bautismal
-conf,Confirmation Date,Fecha de Confirmación
-area,Area,Área
-age,Age,Edad
-bday,Date of Birth,Fecha de Nacimiento
-bdayPh,dd/mm/yyyy,dd/mm/aaaa
-sex,Sex,Sexo
-male,Male,Masculino
-female,Female,Feminino
-phone,Phone Number,Número Telefónico
-zone,Zone,Zona
-district,District,Distrito
-stake,Stake,Estaca
-ward,Ward,Barrio
-push,Push,Aplazar
-addr,Address,Dirección
-fellows,Fellowshipper(s),Hermanadores
-nm,Name,Nombre
-add,Add,Agregar
-relation,Relationship,Estado Civil
-single,Single,Soltero
-married,Married,Casado
-cohabit,Cohabiting,Conviviente
-perm,Permission,Permiso
-y,Yes,Sí
-n,No,No
-lessons,Lessons,Lecciones
-l1t,Lesson 1: The Restoration,Lección 1: La Restauración
-close,Close,Cerrar
-'m,M,M
-l11,God is our loving Heavenly Father,Dios es nuestro amoroso Padre Celestial
-l15,The great apostasy,La Gran Apostasía
-l12,The gospel blesses families.El Evangelio bendice a las familias
-l16,The restoration: Joseph Smith,La Restauración: José Smith
-l13,Gospel dispensations,Dispensaciones del Evangelio
-l17,The Book of Mormon,El Libro de Mormón
-l14,The Savior's earthly ministry,El ministerio terrenal del Salvador
-l18,"Prayer, Holy Ghost","Oración, Espíritu Santo"
-recep,Reception,Recepción
-save,Save,Guardar
-l2t,Lesson 2: The Plan of Salvation
-l21,Pre-Earth life,La vida premortal
-l22,The Creation,La Creación
-l23,Agency and the Fall,El albedrío y la Caída
-l24,Our life on earth,Nuestra vida en la tierra
-l25,The Atonement,La Expiación
-l26,The spirit world,El mundo de los espíritus
-l27,"Resurrection, judgement, and immortality","Resurrección, juicio e inmortalidad"
-l28,Kingdoms of glory,Reinos de gloria
-l3t,Lesson 3: The Gospel of Jesus Christ,Lección 3: El Evangelio de Jesucristo
-l31,Cleansed from sin,Limpios del pecado
-l32,Faith in Jesus Christ,Fe en Jesucristo
-l33,Repentance,Arrepentimiento
-l34,"Baptism, our first covenant","Bautismo, nuestro primer convenio"
-l35,The gift of the Holy Ghost,El don del Espíritu Santo
-l36,Endure to the end,Perseverar hasta el fin
-l4t,Lesson 4: The Commandments
-l41,Obedience,Obediencia
-l42,Pray often,Orar con frecuencia
-l43,Study the scriptures,Estudiar las Escrituras
-l44,Keep the Sabbath day holy,Santifcar el Día de reposo
-l45,Baptism and Confirmation,Bautismo y confirmación
-l46,Follow the prophet,Seguir al profeta
-l47,Keep the Ten Commandments
-l48,Live the law of chastity,Cumplir con la ley de castidad
-l49,Obey the Word of Wisdom,Obedecer la Palabra de Sabiduría
-l410,Keep the law of tithing,Guardar la ley del diezmo
-l411,Observe the law of the fast,Observar la ley del ayuno
-l412,How to donate tithes and offerings,Cómo donar diezmos y ofrendas
-l413,Obey and honor the law,Obedecer y honrar la ley
-l5t,Lesson 5: Laws and Ordinances,Lección 5: Leyes y Ordenanzas
-l51,Priesthood and auxilliaries,Sacerdocio y organizaciones auxiliares
-l52,Missionary work,Obra misional
-l53,Eternal marriage,Matrimonio eterno
-l54,Temples and family history,Templos e historia familiar
-l55,Service,Servicio
-l56,Teaching and learning,Enseñanza y aprendizaje
-l57,Endure to the end,Perseverar hasta el fin
-attend,Church Attendance,Asistencia a la Iglesia
-interviewed,Interviewed,Entrevistado
-need,Need,Necesidad
-doctr,Doctrinal,Doctrinal
-tempr,Temporal,Temporal
-spiritu,Spiritual,Espiritual
-expound,Expound,Exponer
-plan,Plan,Plan
-addrneed,How will I address this need?,¿Cómo satisfaceré esta necesidad?
-baptzd,Baptized!,¡Bautizado!
-never,Never,Nunca
-sometimes,Sometimes,A Veces
-daily,Daily,A Diario
-weekly,Weekly,Semanalmente
-monthly,Monthly,Mensualmente
-script,Reading Scriptures,Leer las Escrituras
-pray,Praying,Orar
-fhe,Family Home Evening,Noche de Hogar
-recmin,Recieving Ministration,Recibir Ministración
-seminst,Attending  Seminary/Institute,Asistencia al Seminario/Instituto
-hasmin,Has Ministers,Tiene Ministros
-endw,Endowed,Es Investido(a)
-ismin,Is Minister,Es Ministro(a)
-marrd,Married,Está Casado(a)
+eng,spa,por
+lds,LDS,SUD,SUD
+sheep,Sheep,Oveja,Ovelhas
+convandmem,Converts  &amp; Returning Members,Conversos y Miembros Activándose,Conversos e Membros Reativando-se
+inv,Investigator,Investigador,Investigador
+conv,Convert,Converso,Converso
+shlist,Sheep List,Lista de Ovejas,Lista de Ovelhas
+memlist,Member List,Lista de Miembros,Lista de Membros
+nsheep,New Sheep,Nueva Oveja,Nova Ovelha
+nmem,New Member,Nuevo Miembro,Novo Membro
+dform,Download Form,Descargar Formulario,Baixar Formulário
+legend,Legend,Leyenda,Legenda
+users,Users,Usuarios,Usuarios
+changePass,Change Password,Cambiar Contraseña,Alterar a Senha
+logout,Logout,Cerrar Sesión,Terminar Seção
+fnames,First Name(s),Nombre(s),Nome(s)
+lnames,Last Name(s),Apellido(s),Sobrenome(s)
+bapDate,Baptism Date,Fecha Bautismal,Data de Batismo
+conf,Confirmation Date,Fecha de Confirmación,Data de Confirmação
+area,Area,Área,Área
+age,Age,Edad,Idade
+bday,Date of Birth,Fecha de Nacimiento,Data de Nascimento
+bdayPh,dd/mm/yyyy,dd/mm/aaaa,dd/mm/aaaa
+sex,Sex,Sexo,Sexo
+male,Male,Masculino,Masculino
+female,Female,Feminino,Feminino
+phone,Phone Number,Número Telefónico,Número de Telefone
+zone,Zone,Zona,Zona
+district,District,Distrito,Distrito
+stake,Stake,Estaca,Estaca
+ward,Ward,Barrio,Ala
+push,Push,Aplazar,Remarcar
+addr,Address,Dirección,Endereço
+fellows,Fellowshipper(s),Hermanadores,Membro Acompanhante
+nm,Name,Nombre,Nome
+add,Add,Agregar,Adicionar
+relation,Relationship,Estado Civil,Estado Civil
+single,Single,Soltero,Solteiro
+married,Married,Casado,Casado
+cohabit,Cohabiting,Conviviente,Convive
+perm,Permission,Permiso,Permissão para Batizar
+y,Yes,Sí,Sim
+n,No,No,Não
+lessons,Lessons,Lecciones,Lições/Palestras
+l1t,Lesson 1: The Restoration,Lección 1: La Restauración,Lição 1: A Restauração
+close,Close,Cerrar,Fechar
+m,M,M,M
+l11,God is our loving Heavenly Father,Dios es nuestro amoroso Padre Celestial,Deus é nosso amoroso Pai Celestial
+l15,The great apostasy,La Gran Apostasía,A Grande Apostasia
+l12,The gospel blesses families,El Evangelio bendice a las familias,O evangelho abençoa as famílias
+l16,The restoration: Joseph Smith,La Restauración: José Smith,A Restauração: Joseph Smith
+l13,Gospel dispensations,Dispensaciones del Evangelio,As Dispensações do Evangelho
+l17,The Book of Mormon,El Libro de Mormón,O Livro de Mórmon
+l14,The Savior's earthly ministry,El ministerio terrenal del Salvador,O Ministério Terreno do Salvador
+l18,"Prayer, Holy Ghost","Oración, Espíritu Santo","Oração, Espírito Santo"
+recep,Reception,Recepción,Recepção
+save,Save,Guardar,Salvar
+l2t,Lesson 2: The Plan of Salvation,Lección 2: El Plan de Salvación,Lição 2: O Plano de Salvação
+l21,Pre-Earth life,La vida premortal,Vida Pré-Mortal
+l22,The Creation,La Creación,A Criação
+l23,Agency and the Fall,El albedrío y la Caída,O Arbítrio e a Queda
+l24,Our life on earth,Nuestra vida en la tierra,Nossa Vida na Terra
+l25,The Atonement,La Expiación,A Expiação
+l26,The spirit world,El mundo de los espíritus,O Mundo Espiritua
+l27,"Resurrection, judgement, and immortality","Resurrección, juicio e inmortalidad","Ressurreição, Julgamento e
+Imortalidade"
+l28,Kingdoms of glory,Reinos de gloria,Reinos de Glória
+l3t,Lesson 3: The Gospel of Jesus Christ,Lección 3: El Evangelio de Jesucristo,Lição 3: O Evangelho de Jesus Cristo
+l31,Cleansed from sin,Limpios del pecado,Limpos do pecado
+l32,Faith in Jesus Christ,Fe en Jesucristo,Fé em Jesus Cristo
+l33,Repentance,Arrepentimiento,Arrependimento
+l34,"Baptism, our first covenant","Bautismo, nuestro primer convenio","Batismo, nosso primeiro convênio"
+l35,The gift of the Holy Ghost,El don del Espíritu Santo,O Dom do Espírito Santo
+l36,Endure to the end,Perseverar hasta el fin,Perseverar até o fim
+l4t,Lesson 4: The Commandments,Lección 4: Los Mandamientos,Lição 4: Os Mandamentos
+l41,Obedience,Obediencia,Obediência
+l42,Pray often,Orar con frecuencia,Orar com freqüência
+l43,Study the scriptures,Estudiar las Escrituras,Estudar as escrituras
+l44,Keep the Sabbath day holy,Santifcar el Día de reposo,Guardar o Dia do Senhor
+l45,Baptism and Confirmation,Bautismo y confirmación,Batismo e confirmação
+l46,Follow the prophet,Seguir al profeta,Seguir o Profeta
+l47,Keep the Ten Commandments,Guardar los Diez Mandamientos,Guardar os Dez Mandamentos
+l48,Live the law of chastity,Cumplir con la ley de castidad,Viver a Lei da Castidade
+l49,Obey the Word of Wisdom,Obedecer la Palabra de Sabiduría,Obedecer a Palavra de Sabedoria
+l410,Keep the law of tithing,Guardar la ley del diezmo,Cumprir a Lei do Dízimo
+l411,Observe the law of the fast,Observar la ley del ayuno,Observar a Lei do Jejum
+l412,How to donate tithes and offerings,Cómo donar diezmos y ofrendas,Como contribuir com dízimos e ofertas
+l413,Obey and honor the law,Obedecer y honrar la ley,Obedecer e respeitar a lei
+l5t,Lesson 5: Laws and Ordinances,Lección 5: Leyes y Ordenanzas,Lição 5: Leis e Ordenanças
+l51,Priesthood and auxilliaries,Sacerdocio y organizaciones auxiliares,Sacerdócio e Auxiliares
+l52,Missionary work,Obra misional,Obra Missionária
+l53,Eternal marriage,Matrimonio eterno,Casamento Eterno
+l54,Temples and family history,Templos e historia familiar,Templos e História da Família
+l55,Service,Servicio,Serviço
+l56,Teaching and learning,Enseñanza y aprendizaje,Ensinar e aprender
+l57,Endure to the end,Perseverar hasta el fin,Perseverar até o fim
+attend,Church Attendance,Asistencia a la Iglesia,Frequentou a Igreja
+interviewed,Interviewed,Entrevistado,Entrevista
+need,Need,Necesidad,Necesidade
+doctr,Doctrinal,Doctrinal,Doutrinária
+tempr,Temporal,Temporal,Temporal
+spiritu,Spiritual,Espiritual,Espiritual
+expound,Expound,Exponer,Explique
+plan,Plan,Plan,Plano
+addrneed,How will I address this need?,¿Cómo satisfaceré esta necesidad?,Como vou satisfazer essa necessidade?
+baptzd,Baptized!,¡Bautizado!,Batizado!
+never,Never,Nunca,Nunca
+sometimes,Sometimes,A Veces,As Vezes
+daily,Daily,A Diario,Diariamente
+weekly,Weekly,Semanalmente,Semanalmente
+monthly,Monthly,Mensualmente,Mensalmente
+script,Reading Scriptures,Leer las Escrituras,Leitura das Escrituras
+pray,Praying,Orar,Oração
+fhe,Family Home Evening,Noche de Hogar,Noite Familiar
+recmin,Recieving Ministration,Recibir Ministración,Recebe Ministração
+seminst,Attending  Seminary/Institute,Asistencia al Seminario/Instituto,Assite ao Seminário/Instituto
+hasmin,Has Ministers,Tiene Ministros,Tem Ministrantes
+endw,Endowed,Es Investido(a),Está Investido(a)
+ismin,Is Minister,Es Ministro(a),Esta Ministrando
+marrd,Married,Está Casado(a),É Casado
+sealed,Sealed,Está Sellado(a),Está Selado(a)
+haskids,Has Children,Tiene Hijos,Tem Filhos
+househead,Head of House,Cabeza de Familia,Chefe de Família
+rm,Returned Missionary,Es Misionero Retornado,É um Missionário Retornado
+priesthood,Priesthood,Sacerdocio,Sacerdócio
+unordain,Unordained,Sin Ordenar,Sem Ordenação
+aaron,Aaronic,Aarónico,Aarônico
+melch,Melchizedek,Melquisedec,Melquisedec
+office,Office,Oficio,Ofício
+deacon,Deacon,Deácono,Diácono
+teacher,Teacher,Maestro,Mestre
+priest,Priest,Presbítero,Sacerdote
+elder,Elder,Élder,Élder
+hpriest,High Priest,Sumo Sacerdote,Sumo Sacerdote
+interdate,Interview Date,Fecha de Entrevista,Data de Entrevista
+gosprin,Gospel Priniples Enrollment,Inscripción en Principios del Evangelio,Assistindo Princípios de Evangelho
+nmemless,New Member Lessons,Lecciones de Nuevo Miembro,Lições de Membros Novos
+calldate,Calling Date,Fecha de Llamamiento,Data que Recebeu um Chamado
+fhist,Family Group Sheet,Hoja de Grupo Familiar,Ficha de Grupo Familiar
+seminstenr,Seminary/Institute Enrollment,Inscripción en Institutos/Seminarios,Inscrição em Institutos/Seminários
+selfreli,Self-Reliance,Auto-Sufficiencia,Auto-Suficiência
+temprep,Temple Prep,Preparación para el Templo,Preparação para o Templo
+baptdead,Proxy Baptisms,Participación en la Obra Vicaria,Participação na Obra Vicária
+cancel,Cancel,Cancelar,Cancelar

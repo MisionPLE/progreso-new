@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>LDS</title>
+        <title>`lds</title>
         <meta name="description" content="Feed my sheep.">
         <link rel="stylesheet" href="./res/bootstrap.min.css">
         <link rel="stylesheet" href="./res/bootstrap.min.css">
@@ -70,6 +70,7 @@
 	}
         </style>
         <script>
+	   var state = "exp"
             function compz(f1, f2) {
                 return function() {
                     f1()
@@ -118,7 +119,7 @@
                     elements[i].style.display="flex";
                 }
             };
-            function retracti() {
+            function retract() {
                 elements = document.getElementsByClassName("add-i");
                 for (var i = 0; i < elements.length; i++) {
                     elements[i].style.display="none";
@@ -127,11 +128,21 @@
                 for (var i = 0; i < elements.length; i++) {
                     elements[i].style.display="none";
                 }
+	       elements = document.getElementsByClassName("add-c");
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].style.display="none";
+                }
+                elements = document.getElementsByClassName("add-cf");
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].style.display="none";
+                }
+	       var b = document.getElementById('ret');
+                b.style.display = 'none';
+                b = document.getElementById('exp');
+                b.style.display = 'inline';
             };
             var expand;
-            var retract;
             expand = compz(expandi, exbtn);
-            retract = compz(retracti, rebtn);
             function conv() {
                 elements = document.getElementsByClassName("conv");
                 for (var i = 0; i < elements.length; i++) {
@@ -150,7 +161,6 @@
                     elements[i].style.display="none"; 
                 }
                 expand = compz(expandc, exbtn);
-                retract = compz(retractc, rebtn);
             };
             function inv() {
                 elements = document.getElementsByClassName("conv");
@@ -170,7 +180,6 @@
                     elements[i].style.display="flex"; 
                 }
                 expand = compz(expandi, exbtn);
-                retract = compz(retracti, rebtn);
             };</script>
     </head>
 
@@ -228,7 +237,7 @@
 		<a href="#" id="ret" onclick="retract()" class="badge badge-pill badge-secondary" style="margin-left: -25px; margin-right: 6px; height: 18px;">-</a>
                     <div class="form-group col-md">
                         <label for="fnames">`fnames*</label>
-                        <input type="text" class="form-control" id="fnames" placeholder="fnames">
+                        <input type="text" class="form-control" id="fnames" placeholder="`fnames">
                     </div>
                     <div class="form-group col-md">
                         <label for="lnames">`lnames*</label>
@@ -1030,14 +1039,14 @@
                         </div>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="sealed">Sealed</label>
+                        <label for="sealed">`sealed</label>
                         <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-outline-success col-lg-3"><input type="radio">`y</label>
                             <label class="btn btn-outline-danger col-lg-3 active"><input type="radio">`n</label>
                         </div>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="children">Has Children</label>
+                        <label for="children">`haskids</label>
                         <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-outline-success col-lg-3"><input type="radio">`y</label>
                             <label class="btn btn-outline-danger col-lg-3 active"><input type="radio">`n</label>
@@ -1047,14 +1056,14 @@
                 <hr>
                 <div class="row">
                     <div class="form-group col-md-4">
-                        <label for="head">Head of House</label>
+                        <label for="head">`househead</label>
                         <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-outline-success col-lg-3"><input type="radio">`y</label>
                             <label class="btn btn-outline-danger col-lg-3 active"><input type="radio">`n</label>
                         </div>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="rm">Returned Missionary</label>
+                        <label for="rm">`rm</label>
                         <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-outline-success col-lg-3"><input type="radio">`y</label>
                             <label class="btn btn-outline-danger col-lg-3 active"><input type="radio">`n</label>
@@ -1063,23 +1072,23 @@
 
                 </div><div class="row" id="priesthoodrow" style="display: flex;">
                 <div class="form-group col-md-5">
-                    <label for="priesthood">Priesthood</label>
+                    <label for="priesthood">`priesthood</label>
                     <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-outline-secondary col-lg"><input type="radio">Unordained</label>
+                        <label class="btn btn-outline-secondary col-lg"><input type="radio">`unordain</label>
                         <label class="btn btn-outline-secondary col-lg active"><input type="radio">Aaronic</label>
                         <label class="btn btn-outline-secondary col-lg"><input type="radio">Melchizedek</label>
                     </div>
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="office">Office</label>
+                    <label for="office">`office</label>
                     <div class="btn-group col-md aap btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-outline-secondary col-lg-4"><input type="radio">Deacon</label>
-                        <label class="btn btn-outline-secondary col-lg-4"><input type="radio">Teacher</label>
-                        <label class="btn btn-outline-secondary col-lg-4 active"><input type="radio">Priest</label>
+                        <label class="btn btn-outline-secondary col-lg-4"><input type="radio">`deacon</label>
+                        <label class="btn btn-outline-secondary col-lg-4"><input type="radio">`teacher</label>
+                        <label class="btn btn-outline-secondary col-lg-4 active"><input type="radio">`priest</label>
                     </div>
                     <div class="btn-group col-md mep btn-group-toggle" data-toggle="buttons" style="display: none;">
-                        <label class="btn btn-outline-secondary col-md-4"><input type="radio">Elder</label>
-                        <label class="btn btn-outline-secondary col-md-4"><input type="radio">High Priest</label>
+                        <label class="btn btn-outline-secondary col-md-4"><input type="radio">`elder</label>
+                        <label class="btn btn-outline-secondary col-md-4"><input type="radio">`hpriest</label>
                     </div>
                 </div>
                 <div class="col-sm-2">
@@ -1091,37 +1100,37 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label for="stake">Interview Date</label>
+                            <label for="stake">`interdate</label>
                             <input class="form-control" formcontrolname="InterviewDate" type="Date">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label for="stake">Gospel Priniples Enrollment</label>
+                            <label for="stake">`gosprin</label>
                             <input class="form-control" formcontrolname="GospelPrinciplesDate" type="Date">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label for="stake">New Member Lessons</label>
+                            <label for="stake">`nmemless</label>
                             <input class="form-control" formcontrolname="NewMemberLessionsDate" type="Date">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label for="stake">Calling Date</label>
+                            <label for="stake">`calldate</label>
                             <input class="form-control" formcontrolname="CallingDate" type="Date">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label for="stake">Family Group Sheet</label>
+                            <label for="stake">`fhist</label>
                             <input class="form-control" formcontrolname="FamilyGroupSheetDate" type="Date">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label for="stake">Seminary/Institute Enrollment</label>
+                            <label for="stake">`seminstenr</label>
                             <input class="form-control" formcontrolname="FamilyGroupSheetDate" type="Date">
                         </div>
                     </div>
@@ -1129,21 +1138,21 @@
                 <hr>
                 <div class="row ">
                     <div class="form-group col-md-4 ">
-                        <label for="self-reliance">Self-Reliance</label>
+                        <label for="self-reliance">`selfreli</label>
                         <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-outline-success col-md-6"><input type="radio">`y</label>
                             <label class="btn btn-outline-danger col-md-6 active"><input type="radio">`n</label>
                         </div>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="temple-prep">Temple Prep</label>
+                        <label for="temple-prep">`temprep</label>
                         <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-outline-success col-md-6"><input type="radio">`y</label>
                             <label class="btn btn-outline-danger col-md-6 active"><input type="radio">`n</label>
                         </div>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="proxy-bapt">Proxy Baptisms</label>
+                        <label for="proxy-bapt">`baptdead</label>
                         <div class="btn-group col-md btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-outline-success col-md-6"><input type="radio">`y</label>
                             <label class="btn btn-outline-danger col-md-6 active"><input type="radio">`n</label>
@@ -1155,8 +1164,8 @@
                 <hr class="conv">
                 <div class="form-row text-center pt-3 pb-5">
                     <div class="col-12">
-                        <button type="submit" class="btn btn-success col-lg-1 col-md-2 col-sm-4">Save</button>
-                        <button type="submit" class="btn btn-secondary col-lg-1 col-md-2 col-sm-4">Cancel</button>
+                        <button type="submit" class="btn btn-success col-lg-1 col-md-2 col-sm-4">`save</button>
+                        <button type="submit" class="btn btn-secondary col-lg-1 col-md-2 col-sm-4">`cancel</button>
                     </div>
                 </div>
             </div>
