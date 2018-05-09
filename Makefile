@@ -1,15 +1,15 @@
+.PHONY: clean dist all
+
 all: eng.html spa.html por.html
 
-eng.html: locali index.html.loc
-	loca -o eng.html index.html.loc
-
-spa.html: locali index.html.loc
-	loca -o spa.html -l spa index.html.loc
-
-por.html: locali index.html.loc
-	loca -o por.html -l por index.html.loc
-
-.PHONY: clean
+%.html: locali index.html.loc
+	loca -o $@ -l $* index.html.loc
 
 clean:
 	rm *.html
+
+dist: *.html res
+	mkdir progreso-new
+	cp -r *.html res progreso-new/
+	zip -f progreso-new.zip progreso-new
+	rm -rf progreso-new/
