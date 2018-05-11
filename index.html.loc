@@ -940,7 +940,7 @@
                 <hr class="inv">
 
                 <div class="form-row inv-f">
-                    <div class="form-group col-lg">
+                    <div class="form-group col-lg-12">
                         <label for="need">`need</label>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -954,7 +954,7 @@
                             <input type="text" class="form-control" aria-label="text" id="need" placeholder="`expound...">
                         </div>
                     </div>
-                    <div class="form-group col-md">
+                    <div class="form-group col-lg-10">
                         <label for="plan">`plan</label>
                         <input type="text" class="form-control" aria-label="text" placeholder="`addrneed">
                     </div>

@@ -8,7 +8,7 @@ all: eng.html spa.html por.html
 clean:
 	rm *.html
 
-dist: *.html res
+dist: all res
 	mkdir progreso-new
 	cp -r *.html res progreso-new/
 	zip -f progreso-new.zip progreso-new
